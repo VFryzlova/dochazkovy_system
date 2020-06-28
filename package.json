@@ -1,0 +1,37 @@
+{
+  "name": "scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack -d",
+    "watch": "webpack -wd",
+    "start:local": "webpack-dev-server --history-api-fallback",
+    "start": "node src/serve.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.0.1",
+    "css-loader": "^3.2.0",
+    "file-loader": "^6.0.0",
+    "prettier": "^2.0.5",
+    "vue-loader": "^15.7.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "database": "0.0.2",
+    "express": "^4.17.1",
+    "firebase": "^7.15.3",
+    "moment": "^2.26.0",
+    "vue": "^2.6.10",
+    "vue-snack": "^0.1.4",
+    "vuefire": "^2.2.2",
+    "vuetify": "^2.3.1"
+  }
+}
