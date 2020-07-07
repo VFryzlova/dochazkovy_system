@@ -114,10 +114,11 @@ export default {
 }
 .totalHours {
     width: 50px;
-    color: rgb(128, 128, 128);
+    color: #20517A;
     font-size: 14px;
     padding-left: 5px;
-    border-left: 1px solid rgb(86, 83, 112);
+    border-left: 1px solid #20517A;
+    font-weight: bold;
 }
 .startTimeAdmin{
     width: 50%;
@@ -128,11 +129,13 @@ export default {
     font-size: 14px;
 }
 .dayInWeek2 {
-    color: rgb(128, 128, 128);
+    color: #20517A;
     font-size: 14px;
+    font-weight: bold;
 }
 .dayInWeek1 {
     padding: 0 10px 0 0;
+    font-weight: bold;
 }
 .divider{
     padding: 0 10px;

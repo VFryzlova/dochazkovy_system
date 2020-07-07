@@ -16,19 +16,20 @@ export default {
 
 <style>
 .header{
-  background-color: #6699CC;
   display: flex;
   justify-content: space-around;
-  color: rgb(29, 29, 29);
+  color: #c6d18f;
+  padding: 16px;
 }
 img{
-  width: 25%;
+  width: 40%;
   height: auto;
-  margin: 15px 0;
 }
 .site_description{
-  align-self: center;
+  align-self: flex-end;
   font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
 
 }
 </style>

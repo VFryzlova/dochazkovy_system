@@ -7,7 +7,6 @@ import EmployeePage from "./components/EmployeePage.vue"
 import EmployerPage from "./components/EmployerPage.vue"
 import moment from "moment"
 import "moment/locale/cs"
-// import 'vue-snack/dist/vue-snack.min.css'
 
 export const userId = 1
 moment.locale("cs")

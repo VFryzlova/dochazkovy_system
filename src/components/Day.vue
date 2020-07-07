@@ -170,12 +170,14 @@ export default {
     display: flex;
     justify-content: space-between;
     width: 90%;
+    padding-right: 20px;
 }
 .totalHours {
     width: 50px;
-    color: rgb(128, 128, 128);
+    color: #20517A;
     font-size: 14px;
     padding-left: 5px;
+    font-weight: bold;
 }
 .startTime {
     width: 50%;
@@ -185,18 +187,20 @@ export default {
 }
 input {
     border-radius: 3px;
-    border: 1px solid #676382;
-    background-color: rgb(57, 60, 79);
-    color: white;
+    border: 1px solid #9cb7ce;
+    background-color: #e7eef5;
+    color: black;
     padding: 8px;
     width: 100%;
 }
 .dayInWeek2 {
-    color: rgb(128, 128, 128);
+    color: #20517A;
     font-size: 14px;
+    font-weight: bold;
 }
 .dayInWeek1 {
     padding: 0 10px 0 0;
+    font-weight: bold;
 }
 .divider {
     padding: 0 10px;

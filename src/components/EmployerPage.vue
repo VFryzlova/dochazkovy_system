@@ -79,8 +79,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: rgb(0, 0, 0);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .week_container {
     display: flex;
@@ -88,8 +87,8 @@ body {
 }
 li {
     list-style-type: none;
-    border-bottom: 1px solid rgb(86, 83, 112);
-    background-color: #202029;
+    border-bottom: 1px solid #20517A;
+    background-color: #ffffff;
 }
 .admin li {
     background-color: black !important;

@@ -72,8 +72,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-image: linear-gradient(to right top, #727a49, #447655, #006e69, #006179, #20517a);
+    color: rgb(0, 0, 0);
 }
 .week_container {
     display: flex;
@@ -81,15 +81,15 @@ body {
 }
 li {
     list-style-type: none;
-    border-bottom: 1px solid rgb(86, 83, 112);
-    background-color: #202029;
+    border-bottom: 1px solid #20517A;
+    background-color: #ffffff;
 }
 li:nth-child(n + 6) > div {
-    background-color: black;
+    background-color: #c7d8e6
 }
 li:nth-child(6) {
     margin-top: 4px;
-    border-top: 1px solid rgb(86, 83, 112);
+    border-top: 1px solid #20517A;
 }
 ul {
     margin: 0;

@@ -18,8 +18,10 @@ export default {
 <style>
 .current_week_container {
     width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 15px;
-    background-color: black;
     color: white;
     text-align: center;
     font-weight: bold;
