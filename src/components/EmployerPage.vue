@@ -91,11 +91,14 @@ li {
     background-color: #ffffff;
 }
 .admin li {
-    background-color: black !important;
+    background-color: rgb(255, 255, 255) !important;
 }
 .admin li:nth-child(6) {
     margin-top: 0;
     border-top: none;
+}
+.admin li:nth-child(n + 6) > div {
+    background-color: #ffffff
 }
 ul {
     margin: 0;
@@ -105,7 +108,6 @@ ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #6699CC;
     padding: 16px;
 }
 .totalHoursOfMonth{
